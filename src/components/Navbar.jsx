@@ -2,7 +2,6 @@ import React from 'react';
 import { navLinks } from "../../constants/index.js";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 const Navbar = () => {
     useGSAP(() => {

@@ -1,8 +1,8 @@
 import React, {useRef} from 'react';
 import { SplitText } from "gsap/all";
 import gsap from "gsap";
-import {useGSAP} from "@gsap/react";
-import {useMediaQuery} from "react-responsive";
+import { useGSAP } from "@gsap/react";
+import { useMediaQuery } from "react-responsive";
 
 const Hero = () => {
     const videoRef = useRef();
